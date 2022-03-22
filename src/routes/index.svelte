@@ -1,8 +1,9 @@
 <script>
+    import { goto } from '$app/navigation';
     import {fade} from 'svelte/transition'
 
     const handleClick = () => {
-        window.location.replace('/login')
+        goto('/login')
     }
 </script>
 
